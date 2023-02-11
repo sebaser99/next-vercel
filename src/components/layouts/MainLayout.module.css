@@ -1,15 +1,21 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  
 }
 
 .description {
   display: inherit;
-  justify-content: inherit;
+  justify-content: center;
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
@@ -37,6 +43,7 @@
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
+  margin-left: 1rem;
 }
 
 .grid {
@@ -247,6 +254,12 @@
       rgb(var(--background-end-rgb)) 40%
     );
     z-index: 1;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 
