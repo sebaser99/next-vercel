@@ -30,7 +30,7 @@ About.getLayout = function getLayout (page: JSX.Element ){
   return(
     <MainLayout>
       <DarkLayout>
-        {page}
+        {page} 
       </DarkLayout>
     </MainLayout>
   )
